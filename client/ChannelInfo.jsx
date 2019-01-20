@@ -44,11 +44,11 @@ export default class ChannelInfo extends React.Component {
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Base Fee</td>
-                    <td>{ch.node1_policy && ch.node1_policy.fee_base_msat} msat</td>
+                    <td>{ch.node1_policy && ch.node1_policy.fee_base_msat} mgro</td>
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Fee Rate</td>
-                    <td>{ch.node1_policy && ch.node1_policy.fee_rate_milli_msat} msat</td>
+                    <td>{ch.node1_policy && ch.node1_policy.fee_rate_milli_msat} mgro</td>
                 </tr>
                 <tr>
                     <td>Node2</td>
@@ -64,11 +64,11 @@ export default class ChannelInfo extends React.Component {
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Base Fee</td>
-                    <td>{ch.node2_policy && ch.node2_policy.fee_base_msat} msat</td>
+                    <td>{ch.node2_policy && ch.node2_policy.fee_base_msat} mgro</td>
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Fee Rate</td>
-                    <td>{ch.node2_policy && ch.node2_policy.fee_rate_milli_msat} msat</td>
+                    <td>{ch.node2_policy && ch.node2_policy.fee_rate_milli_msat} mgro</td>
                 </tr>
             </tbody>
         );
