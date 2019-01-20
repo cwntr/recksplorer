@@ -1,15 +1,15 @@
 
-function FormatCapacity(cap, usdbtc)
+function FormatCapacity(cap, usdgrs)
 {
     var formattedCap = cap.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-    if (usdbtc)
+    if (usdgrs)
     {
-        var capusd = cap*usdbtc/Math.pow(10,8);
+        var capusd = cap*usdgrs/Math.pow(10,8);
         var formattedCapusd = capusd.toLocaleString(undefined, {style: 'currency', currency: 'USD'});
-        return `${formattedCap} sat (${formattedCapusd} USD)`;
+        return `${formattedCap} gro (${formattedCapusd} USD)`;
     }
     else
-        return `${formattedCap} sat`;
+        return `${formattedCap} gro`;
 }
 
 // Converts uint8 json array to hex string
@@ -32,7 +32,7 @@ function ParseAxiosError(error)
 
 function GetTransactionURL(txid)
 {
-    return 'https://www.smartbit.com.au/tx/' + txid;
+    return 'https://groestlsight.groestlcoin.org/tx/' + txid;
 }
 
 export {

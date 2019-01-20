@@ -1,13 +1,13 @@
 # Lightning Network Explorer
 
-This is a simple lightning network explorer that uses [LND](https://github.com/lightningnetwork/lnd) or [c-lightning](https://github.com/ElementsProject/lightning) as a source of network graph. You can see it live on https://lnmainnet.gaben.win/
+This is a simple lightning network explorer that uses [LND](https://github.com/groestlcoin/lnd) or [c-lightning](https://github.com/groestlcoin/lightning) as a source of network graph. You can see it live on https://lnmainnet.groestlcoin.org/
 
 ## Installation
 
 Clone repository:
 
 ```
-git clone https://github.com/chemicstry/recksplorer.git
+git clone https://github.com/groestlcoin/recksplorer.git
 ```
 
 Install npm dependencies (inside project folder):

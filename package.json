@@ -1,11 +1,11 @@
 {
-  "name": "lnexplorer",
+  "name": "lnexplorer-grs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Groestlcoin Lightning Network Explorer",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chemicstry/recksplorer.git"
+    "url": "https://github.com/groestlcoin/recksplorer.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
