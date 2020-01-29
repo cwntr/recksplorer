@@ -16,8 +16,8 @@ class DataStore {
     // Currently selected object on map (node or channel)
     @observable selectedObject = {};
 
-    // Groestlcoin price in usd
-    @observable usdgrs;
+    // XSN price in usd
+    @observable usdxsn;
 
     selectObject(object, source) {
         this.selectedObject = {object, source};
@@ -70,8 +70,8 @@ class DataStore {
     }
 
     fetchPrice() {
-        Axios.get('https://api.coinmarketcap.com/v1/ticker/groestlcoin/').then((result) => {
-            this.usdgrs = result.data[0].price_usd;
+        Axios.get('https://api.coinmarketcap.com/v1/ticker/stakenet/').then((result) => {
+            this.usdxsn = result.data[0].price_usd;
         });
     }
 }

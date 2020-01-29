@@ -1,15 +1,17 @@
 
-function FormatCapacity(cap, usdgrs)
+function FormatCapacity(cap, usdxsn)
 {
-    var formattedCap = cap.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-    if (usdgrs)
+    var tempCap = cap / Math.pow(10,8);
+    var formattedCap = tempCap.toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 8});
+
+    if (usdxsn)
     {
-        var capusd = cap*usdgrs/Math.pow(10,8);
+        var capusd = cap*usdxsn/Math.pow(10,8);
         var formattedCapusd = capusd.toLocaleString(undefined, {style: 'currency', currency: 'USD'});
-        return `${formattedCap} gro (${formattedCapusd} USD)`;
+        return `${formattedCap} xsn (${formattedCapusd} USD)`;
     }
     else
-        return `${formattedCap} gro`;
+        return `${formattedCap} xsn`;
 }
 
 // Converts uint8 json array to hex string
@@ -32,7 +34,7 @@ function ParseAxiosError(error)
 
 function GetTransactionURL(txid)
 {
-    return 'https://groestlsight.groestlcoin.org/tx/' + txid;
+    return 'https://xsnexplorer.io/transactions' + txid;
 }
 
 export {

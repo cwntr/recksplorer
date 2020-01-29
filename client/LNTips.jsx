@@ -101,7 +101,7 @@ export default class LNTips extends React.Component {
             case PaymentState.PAYMENT_STATE_WAITING_FOR_INPUT:
                 return (
                     <span style={styles.container}>
-                        <input type="text" placeholder="Amount (gro)" style={styles.input} onChange={event => this.onValueChange(event)}/>
+                        <input type="text" placeholder="Amount (XSN)" style={styles.input} onChange={event => this.onValueChange(event)}/>
                         <button style={styles.button} onClick={event => this.onCreateInvoice(event)}>Get Invoice</button>
                     </span>
                 );

@@ -1,13 +1,14 @@
-# Lightning Network Explorer
+# Stakenet (XSN) Lightning Network Explorer
 
-This is a simple lightning network explorer that uses [LND](https://github.com/groestlcoin/lnd) or [c-lightning](https://github.com/groestlcoin/lightning) as a source of network graph. You can see it live on https://lnmainnet.groestlcoin.org/
+This is a simple lightning network explorer that uses [LND](https://github.com/lightningnetwork/lnd) or [c-lightning](https://github.com/cwntr/lightning) as a source of network graph. You can see it live on [http://ln.stakenet.info](http://ln.stakenet.info) 
+
 
 ## Installation
 
 Clone repository:
 
 ```
-git clone https://github.com/groestlcoin/recksplorer.git
+git clone https://github.com/cwntr/recksplorer.git
 ```
 
 Install npm dependencies (inside project folder):
@@ -40,5 +41,6 @@ NODE_ENV=production node server.js
 ```
 
 ## Credits
+
 
 Thanks to https://github.com/mably/lncli-web for `lightning.js` grpc wrapper.

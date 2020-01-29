@@ -83,7 +83,7 @@ export default class App extends React.Component {
                 <Search store={store} />
             </FixedContainer>
             <FixedContainer position='top-right'>
-                <Title>#recksplorer</Title>
+                <Title>XSN LN #recksplorer</Title>
                 <select value={this.state.map} onChange={(e) => this.onMapChange(e)} className={styles.mapselect}>
                     <option value="viva">Light (fixed)</option>
                     <option value="vivaphys">Light (physics)</option>

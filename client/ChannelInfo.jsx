@@ -20,7 +20,7 @@ export default class ChannelInfo extends React.Component {
                 </tr>
                 <tr>
                     <td>Capacity</td>
-                    <td>{ch.capacity && FormatCapacity(parseInt(ch.capacity), this.props.store.usdgrs)}</td>
+                    <td>{ch.capacity && FormatCapacity(parseInt(ch.capacity), this.props.store.usdxsn)}</td>
                 </tr>
                 <tr>
                     <td>Channel Point</td>
@@ -44,11 +44,11 @@ export default class ChannelInfo extends React.Component {
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Base Fee</td>
-                    <td>{ch.node1_policy && ch.node1_policy.fee_base_msat} mgro</td>
+                    <td>{ch.node1_policy && ch.node1_policy.fee_base_msat} mXSN</td>
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Fee Rate</td>
-                    <td>{ch.node1_policy && ch.node1_policy.fee_rate_milli_msat} mgro</td>
+                    <td>{ch.node1_policy && ch.node1_policy.fee_rate_milli_msat} mXSN</td>
                 </tr>
                 <tr>
                     <td>Node2</td>
@@ -64,11 +64,11 @@ export default class ChannelInfo extends React.Component {
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Base Fee</td>
-                    <td>{ch.node2_policy && ch.node2_policy.fee_base_msat} mgro</td>
+                    <td>{ch.node2_policy && ch.node2_policy.fee_base_msat} mXSN</td>
                 </tr>
                 <tr>
                     <td style={styles.indent}>- Fee Rate</td>
-                    <td>{ch.node2_policy && ch.node2_policy.fee_rate_milli_msat} mgro</td>
+                    <td>{ch.node2_policy && ch.node2_policy.fee_rate_milli_msat} mXSN</td>
                 </tr>
             </tbody>
         );

@@ -32,7 +32,7 @@ export default class NetworkInfo extends React.Component {
                     </tr>
                     <tr>
                         <td>Total Capacity</td>
-                        <td>{FormatCapacity(store.totalCapacity, store.usdgrs)}</td>
+                        <td>{FormatCapacity(store.totalCapacity, store.usdxsn)}</td>
                     </tr>
                     <tr>
                         <td>Total Fees</td>
