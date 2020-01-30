@@ -1,7 +1,7 @@
-language: go
+language: node_js
 
-go:
-  - "1.13.x"
+node_js:
+  - "stable"
 
 script:
-  - make test
+  - npm test
