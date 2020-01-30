@@ -1,6 +1,12 @@
 # Stakenet (XSN) Lightning Network Explorer
 
-This is a simple lightning network explorer that uses [LND](https://github.com/lightningnetwork/lnd) or [c-lightning](https://github.com/cwntr/lightning) as a source of network graph. You can see it live on [http://ln.stakenet.info](http://ln.stakenet.info) 
+
+[![Build Status](https://travis-ci.org/cwntr/recksplorer.svg?branch=master)](https://travis-ci.org/cwntr/recksplorer)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d0fa383aa05e4837a40176d27032baf7)](https://www.codacy.com/manual/cwntr/recksplorer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cwntr/recksplorer&amp;utm_campaign=Badge_Grade)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+
+
+This is a simple lightning network explorer that uses [LND](https://github.com/X9Developers/DexAPI/releases) or [c-lightning](https://github.com/cwntr/lightning) as a source of network graph. You can see it live on [http://ln.stakenet.info](http://ln.stakenet.info) 
 
 
 ## Installation
