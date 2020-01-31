@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 
 
-This is a simple lightning network explorer that uses [LND](https://github.com/X9Developers/DexAPI/releases) or [c-lightning](https://github.com/cwntr/lightning) as a source of network graph. You can see it live on [http://ln.stakenet.info](http://ln.stakenet.info) 
+This is a simple lightning network explorer that uses [LND](https://github.com/X9Developers/DexAPI/releases) or [c-lightning](https://github.com/cwntr/lightning) as a source of network graph. You can see it live on [http://ln.stakenet.info](https://lightning.stakenet.info) 
 
 
 ## Installation
