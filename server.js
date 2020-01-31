@@ -13,8 +13,8 @@ const main = require('./server/main');
 // Usage
 const sections = [
     {
-        header: 'Lightning Network Explorer',
-        content: 'Powered by Groestlcoin'
+        header: 'Stakenet (XSN) Lightning Network Explorer',
+        content: 'Powered by cwntr'
     },
     {
         header: 'Options',

@@ -8,10 +8,10 @@ function FormatCapacity(cap, usdxsn)
     {
         var capusd = cap*usdxsn/Math.pow(10,8);
         var formattedCapusd = capusd.toLocaleString(undefined, {style: 'currency', currency: 'USD'});
-        return `${formattedCap} xsn (${formattedCapusd} USD)`;
+        return `${formattedCap} XSN (${formattedCapusd} USD)`;
     }
     else
-        return `${formattedCap} xsn`;
+        return `${formattedCap} XSN`;
 }
 
 // Converts uint8 json array to hex string
